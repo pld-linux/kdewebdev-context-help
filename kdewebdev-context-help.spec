@@ -19,6 +19,7 @@ Source3:	http://dl.sourceforge.net/quanta/mysql-20030405.tar.bz2
 Source4:	http://dl.sourceforge.net/quanta/php.tar.bz2
 # Source4-md5:	2d19a72114cce1485c1c23ff28135210
 Requires:	kdewebdev-quanta
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
