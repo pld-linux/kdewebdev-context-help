@@ -1,5 +1,3 @@
-%define qhelpdir %{_datadir}/apps/quanta/doc
-
 Summary:	Context help for CSS, HTML, JS, MySQL and PHP in Quanta
 Summary(pl):	Pomoc kontekstowa Quanty dla CSS, HTML, JS, MySQL i PHP
 Name:		kdewebdev-context-help
@@ -22,19 +20,18 @@ Requires:	kdewebdev-quanta
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		qhelpdir	%{_datadir}/apps/quanta/doc
+
 %description
 This package provides context help for CSS, HTML, JS, MySQL and PHP.
 
 %description -l pl
-Ten pakiet dostarcza pomocy kontekstowej dla CSS, HTML, JS, MySQL i PHP.
+Ten pakiet dostarcza pomoc kontekstow± dla CSS, HTML, JS, MySQL i PHP.
 
 %prep
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{qhelpdir}
 
 bzip2 -dc %{SOURCE0} | tar -xf - --strip-components=1 -C $RPM_BUILD_ROOT%{qhelpdir}
