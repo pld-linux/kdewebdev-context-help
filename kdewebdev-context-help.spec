@@ -1,5 +1,5 @@
 Summary:	Context help for CSS, HTML, JS, MySQL and PHP in Quanta
-Summary(pl.UTF-8):   Pomoc kontekstowa Quanty dla CSS, HTML, JS, MySQL i PHP
+Summary(pl.UTF-8):	Pomoc kontekstowa Quanty dla CSS, HTML, JS, MySQL i PHP
 Name:		kdewebdev-context-help
 Version:	0.20041123
 Release:	1
