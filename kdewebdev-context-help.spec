@@ -2,7 +2,7 @@ Summary:	Context help for CSS, HTML, JS, MySQL and PHP in Quanta
 Summary(pl.UTF-8):	Pomoc kontekstowa Quanty dla CSS, HTML, JS, MySQL i PHP
 Name:		kdewebdev-context-help
 Version:	0.20041123
-Release:	1
+Release:	2
 Epoch:		0
 License:	GPL
 Group:		X11/Development/Tools
@@ -14,8 +14,8 @@ Source2:	http://dl.sourceforge.net/quanta/javascript.tar.bz2
 # Source2-md5:	4e4945ac5b842339ecc69b4c63960529
 Source3:	http://dl.sourceforge.net/quanta/mysql-20030405.tar.bz2
 # Source3-md5:	5724096006900495e07a46e8dbd22bbd
-Source4:	http://dl.sourceforge.net/quanta/php.tar.bz2
-# Source4-md5:	2d19a72114cce1485c1c23ff28135210
+Source4:	http://dl.sourceforge.net/quanta/php-quanta-doc-20051114.tar.bz2
+# Source4-md5:	7c8104c7064ce81b2b430bf0d7753573
 BuildRequires:	tar >= 1:1.15.1
 Requires:	kdewebdev-quanta
 BuildArch:	noarch
